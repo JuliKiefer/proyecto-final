@@ -1,13 +1,17 @@
 .flex-container {
-height: 400px;
-padding: 10px;
+height: 200px;
+padding: 5px;
 display: flex;
+gap: 5px;
+flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 }
 
 .flex-container .flex-item {
+    background-color: black;
+    color: white;
 font-family: sans-serif;
 padding: 5px;
 text-align: center;
@@ -16,5 +20,10 @@ text-align: center;
 
 .flex-container .flex-item img {
 width: 100%;    
-max-width: 500px;
+max-width: 300px;
+}
+
+.flex-container .flex-item p {
+    padding: 20px;
+    margin: 5px;
 }
