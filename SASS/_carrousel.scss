@@ -1,0 +1,44 @@
+.ContenedorCarrousel {
+    height: 450px;
+    overflow: hidden;
+    width: 100%;
+    .ItemCarrousel{
+        height: 100%;
+        position: relative;
+        align-content: center;
+        .FotosCarrousel {
+            height: 100%;
+            .Texto-Foto{
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    align-items: end;
+                    justify-content: center;
+                    background: linear-gradient(to bottom, rgba(100, 52, 7, 0.5),rgba(100, 52, 7, 0.5)), url(../img/Carrousel/estambul_carr.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    .wrap-texto {
+                        color: white;
+                    }
+                }
+            }
+            img {
+                width: 100%;
+                height: 450px;
+            }
+        }
+        .FlechasCarrousel{
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+}
